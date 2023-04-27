@@ -2,6 +2,7 @@
 
 # Start
 # Create a function called process
+def process():
     # Open the mylife.txt (write)
         # Ask the user to enter an input string
             # Write the line to the file
