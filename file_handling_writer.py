@@ -10,7 +10,8 @@ def process():
             input_text = input("Enter line: ")
             # Write the line to the file
             file_1.write(input_text + "\n")
-            # Ask the ser if they want to input string again
+            # Ask the user if they want to input string again
+            input_more_lines = input("Are there more lines y/n? ")
             # If user enters 'n', exit the loop
 
 
