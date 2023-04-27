@@ -13,6 +13,8 @@ def process():
             # Ask the user if they want to input string again
             input_more_lines = input("Are there more lines y/n? ")
             # If user enters 'n', exit the loop
+            if input_more_lines.lower() == "n":
+                break
 
 
 # execute the function
