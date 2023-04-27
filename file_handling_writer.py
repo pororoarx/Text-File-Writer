@@ -9,6 +9,7 @@ def process():
             # Ask the user to enter an input string
             input_text = input("Enter line: ")
             # Write the line to the file
+            file_1.write(input_text + "\n")
             # Ask the ser if they want to input string again
             # If user enters 'n', exit the loop
 
