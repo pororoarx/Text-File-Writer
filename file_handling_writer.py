@@ -1,5 +1,14 @@
 # Write a method in python to write multiple line of text contents into a text file mylife.txt. 
 
+# import pyfiglet
+import pyfiglet
+
+# Set and print the title of the activity in color and different font
+title_of_assign = "Module 2 - Prob 3"
+font = "slant"
+print("\033[38;5;40m", pyfiglet.figlet_format(title_of_assign, font=font))
+
+
 # Start
 # Create a function called process
 def process():
