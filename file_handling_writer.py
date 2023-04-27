@@ -18,3 +18,4 @@ def process():
 
 
 # execute the function
+process()
