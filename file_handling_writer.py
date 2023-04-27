@@ -4,6 +4,7 @@
 # Create a function called process
 def process():
     # Open the mylife.txt (write)
+    with open("mylife.txt", "w") as file_1:
         # Ask the user to enter an input string
             # Write the line to the file
             # Ask the ser if they want to input string again
